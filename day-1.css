@@ -1,0 +1,63 @@
+
+
+.player-container{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    border: 2px solid #44b979;
+}
+.player-container audio{
+    width: 100%;
+    background-color:#44b979 ;
+    padding: 1rem;
+}
+.player-container .btnss{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.player-container .btnss button{
+    padding: 10px 20px;
+    box-shadow: 0px 0 20px 0px rgb(0 0 0 / 30%);
+    font-size: 15px;
+    background-color: #fff;
+    color: #44b979;
+    border: none;
+    margin: 0.5rem;
+}
+
+.player-container .songs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    border-top: 2px solid #44b979;
+}
+
+.player-container .songs div{
+    padding: 10px 20px;
+    box-shadow: 0px 0 20px 0px rgb(0 0 0 / 30%);
+    font-size: 20px;
+    background-color: #fff;
+    color: #44b979;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.player-container .songs div button{
+    padding: 10px;
+    box-shadow: 0px 0 20px 0px rgb(0 0 0 / 30%);
+    font-size: 15px;
+    background-color: #fff;
+    color: #44b979;
+    border: none;
+    margin: 0.5rem;
+    border-radius: 50%;
+}
